@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ciclocrós Internacional</title>
+</head>
+
+<body>
+    <header>
+        <!-- Menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#portada">Portada</a></li>
+                <li><a href="#lista-ciclistas">Lista de Ciclistas</a></li>
+                <li><a href="#listado-competiciones">Listado de Competiciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Portada -->
+        <article id="portada">
+            <h1>Ciclocrós Internacional</h1>
+            <figure>
+                <img src="banner.jpg" alt="Banner de Ciclocrós">
+                <figcaption>Evento de Ciclocrós Internacional</figcaption>
+            </figure>
+            <p>Texto explicativo del evento...</p>
+        </article>
+
+        <!-- Lista de ciclistas -->
+        <section id="lista-ciclistas">
+            <h2>Lista de Ciclistas</h2>
+            <article>
+                <header>
+                    <h3>Nombre Completo del Ciclista</h3>
+                </header>
+                <figure>
+                    <img src="foto_ciclista.jpg" alt="Nombre del Ciclista">
+                    <figcaption>Foto de Nombre del Ciclista</figcaption>
+                </figure>
+            </article>
+            <!-- Repetir para cada ciclista -->
+        </section>
+
+        <!-- Detalles de un ciclista específico -->
+        <article id="ciclista">
+            <header>
+                <h2>Nombre Completo del Ciclista</h2>
+            </header>
+            <figure>
+                <img src="foto_ciclista.jpg" alt="Nombre del Ciclista">
+                <figcaption>Foto de Nombre del Ciclista</figcaption>
+            </figure>
+            <p>Fecha de nacimiento:</p>
+            <p>Nacionalidad:</p>
+            <p>Altura:</p>
+            <p>Peso:</p>
+            <p>Equipo:</p>
+            <p>Palmarés:</p>
+        </article>
+
+        <!-- Listado de competiciones -->
+        <section id="listado-competiciones">
+            <h2>Competiciones de 2024</h2>
+            <table>
+                <caption>Tabla de competiciones para el año 2024</caption>
+                <thead>
+                    <tr>
+                        <th>Competición</th>
+                        <th>Lugar</th>
+                        <th>Horario</th>
+                        <th>Enlace Oficial</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nombre de la Competición</td>
+                        <td>Lugar de Celebración</td>
+                        <td>Horario</td>
+                        <td><a href="url_oficial">Página Oficial</a></td>
+                        <td>Primeros 10 clasificados</td>
+                    </tr>
+                    <!-- Repetir para cada competición -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ciclocrós Internacional</p>
+    </footer>
+
+    <!-- Ejemplo de uso de iframe -->
+    <iframe src="contenido_incrustado.html" title="Contenido Incrustado"></iframe>
+
+    <!-- Más detalles sobre un ciclista -->
+    <details>
+        <summary>Más información sobre el ciclista Nombre Completo</summary>
+        <p>Detalles adicionales del ciclista...</p>
+    </details>
+</body>
+
+</html>
